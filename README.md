@@ -1,8 +1,8 @@
-# Hotel Booking App (React Native + Expo)
+# Hotel Booking App (React Native + Expo Go)
 
-Beginner-friendly mobile app that covers Section A (UI + Navigation) and Section B (Firebase + APIs).
+ Mobile app that covers Section A (UI + Navigation) and Section B (Firebase + APIs).
 
-## What’s included
+# What’s included
 - Onboarding (3 screens) shown once for new accounts
 - Auth: Sign Up, Sign In, Forgot Password (Firebase Auth)
 - Explore → Hotel Details → Booking → Success
