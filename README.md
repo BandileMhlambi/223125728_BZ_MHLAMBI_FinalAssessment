@@ -60,18 +60,12 @@ Notes:
 - Book Now → enter dates (YYYY-MM-DD) and rooms → Confirm → Success → booking saved.
 - Profile → name editable (updates Firestore), bookings list shows latest.
 - Deals tab → shows cards from Fake Store API.
-- Logout → returns to Sign In.
-
-## Styling approach (simple + modern + readable)
-- Clean spacing, rounded corners, soft borders.
-- Primary colors used: blue (`#2563eb`) for actions, green (`#10b981`) for confirm, red (`#ef4444`) for destructive.
-- Inputs use light gray backgrounds (`#f9fafb`) and thin borders.
-- All screens use clear titles and generous padding for beginner readability.
+- Logout → returns to Sign In
 
 ## Data model (Firestore)
 - `users/{uid}`: `{ uid, name, email }`
 - `users/{uid}/bookings/{bookingId}`: `{ hotelId, hotelName, checkIn, checkOut, nights, rooms, rate, total }`
-- `hotels/{hotelId}/reviews/{reviewId}`: `{ author, stars, text, createdAt }`
+  `hotels/{hotelId}/reviews/{reviewId}`: `{ author, stars, text, createdAt }`
 
 ## Common issues
 - If images don’t show, verify file paths in `Materials/` match the ones in code.
